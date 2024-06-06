@@ -29,11 +29,10 @@ html, body {
   color: #FFF;
   border: none;
   border-radius: 2rem;
-  padding: .9rem 1.55rem;
+  padding: 0.9rem 1.55rem;
   font-weight: 600;
   font-size: 1rem;
 }
-
 .header-start-button:hover {
   background-color: #666CA3;
   cursor: pointer;
@@ -48,7 +47,6 @@ main {
   font-size: 2.5rem;
   margin: 2.5rem auto;
 }
-
 .hero-content p {
   color: #83869A;
   font-size: 1rem;
@@ -66,7 +64,6 @@ main {
   border: 0;
   font-weight: 600;
 }
-
 .hero-start-button:hover {
   background: linear-gradient(180deg, rgba(255, 111, 72, 0.5) 0%, rgba(240, 42, 181, 0.5) 100%);
   cursor: pointer;
@@ -87,10 +84,9 @@ main {
   color: #FFF;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%) no-repeat;
   border-radius: 1rem;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   margin-top: 2rem;
 }
-
 .courses-header h2 {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -104,14 +100,12 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .courses-description-container h3 {
   font-size: 1.25rem;
   font-weight: 800;
   color: #13183F;
   margin: 1rem 0 0 0;
 }
-
 .courses-description-container p {
   font-size: 1rem;
   color: #83869A;
@@ -132,11 +126,9 @@ main {
   font-weight: 700;
   font-size: 1.125rem;
 }
-
 .link a:visited {
   color: #F74780;
 }
-
 .link:hover {
   color: #FFA7C3;
   cursor: pointer;
@@ -149,11 +141,10 @@ footer {
   align-items: center;
   padding: 2rem 1rem;
 }
-
 footer .footer-start-button {
   border-radius: 2rem;
   background: linear-gradient(180deg, #4851FF 0%, #f02aa6 100%);
-  padding: .9rem 1.55rem;
+  padding: 0.9rem 1.55rem;
   font-size: 1rem;
   color: #FFF;
   border: 0;
@@ -229,13 +220,11 @@ footer .footer-start-button {
     padding: 2.25rem 2.5rem;
   }
 }
-
 /*Desktop*/
 @media only screen and (min-width: 64rem) {
   body {
     width: 100%;
-    max-width: 90rem;
-    /*1440px*/
+    max-width: 90rem; /*1440px*/
   }
   .nav-container {
     margin: 1.5rem 8.75rem;
@@ -250,7 +239,7 @@ footer .footer-start-button {
   }
   main {
     padding: 0 8.75rem 0 8.75rem;
-    margin-bottom: 13rem;
+    margin-bottom: 10rem;
   }
   .hero-content {
     display: flex;
@@ -318,4 +307,4 @@ footer .footer-start-button {
     padding: 1.1rem 2.4rem;
     font-size: 1.125rem;
   }
-}
+}/*# sourceMappingURL=style.css.map */
