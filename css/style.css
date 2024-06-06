@@ -111,6 +111,7 @@ main {
   color: #83869A;
   line-height: 1.625rem;
   margin: 1rem 0;
+  padding: 0 1rem;
 }
 
 .icon {
@@ -197,7 +198,7 @@ footer .footer-start-button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1rem 2rem;
+    gap: 1rem 1rem;
   }
   .courses-wrap {
     filter: drop-shadow(0 1rem 0.8rem rgba(131, 134, 154, 0.3));
